@@ -21,50 +21,69 @@
         </thead>
         <tbody>
             <tr><!-- Sesión 1 -->
-                <td>08:30 - 09:25</td>
-                <td rowspan="2">Sistemas Informáticos</td>
-                <td>Bases de Datos</td>
-                <td rowspan="2">Sistemas Informáticos</td>
-                <td>Programación</td>
-                <td>Bases de Datos</td>
+                <td>08:30 09:20</td>
+                <td rowspan="2">Bases de Datos</td>
+                <td>ContDes</td>
+                <td>Ingles</td>
+                <td rowspan="2">Bases de Datos</td>
+                <td rowspan="2">LIMA</td>
             </tr>
             <tr><!-- Sesión 2 -->
-                <td>09:25 - 10:20</td>
-                <td>Entornos de Desarrollo</td>
-                <td>Programación</td>
-                <td>Entornos de Desarrollo</td>
+                <td>09:20 10:10</td>
+                <td>LIMA</td>
+                <td>Contornos</td>
             </tr>
-            <tr><!-- Sesión 3 -->
-                <td>10:20 - 11:15</td>
-                <td>Lenguajes de Marcas</td>
-                <td>Bases de Datos</td>
-                <td>Programación</td>
-                <td>Bases de Datos</td>
-                <td>Lenguajes de Marcas</td>
-            </tr>
-            <tr><!-- Recreo -->
-                <td>11:15 - 11:45</td>
+            <tr><!-- recreo -->
+                <td> </td>
                 <td colspan="5" align="center"><strong>RECREO</strong></td>
             </tr>
-            <tr><!-- Sesión 4 -->
-                <td>11:45 - 12:40</td>
-                <td rowspan="2">Programación</td>
-                <td>Lenguajes de Marcas</td>
-                <td rowspan="2">Bases de Datos</td>
+            <tr><!-- Sesión 3 -->
+                <td>10:30 11:20</td>
+                <td>ItrPerEmpleo</td>
+                <td>Ingles</td>
                 <td rowspan="2">Sistemas Informáticos</td>
+                <td>LIMA</td>
                 <td rowspan="2">Programación</td>
+            </tr>
+            <tr><!-- Sesión 4 -->
+                <td>11:20 12:10</td>
+                <td>ContDes</td>
+                <td>Bases de datos</td>
+                <td>Sustentabilidad</td>
+            </tr>
+            <tr><!-- recreo -->
+                <td> </td>
+                <td colspan="5" align="center"><strong>RECREO</strong></td>
             </tr>
             <tr><!-- Sesión 5 -->
-                <td>12:40 - 13:35</td>
-                <td>Sostenibilidad</td>
+                <td>12:30 13:20</td>
+                <td rowspan="2">Sistemas</td>
+                <td rowspan="2">Programación</td>
+                <td rowspan="2">Bases de datos</td>
+                <td rowspan="2">Programación</td>
+                <td rowspan="2">Sistemas informáticos</td>
             </tr>
-            <tr><!-- Sesión 6 -->
-                <td>13:35 - 14:30</td>
-                <td>FOL / Itinerario laboral</td>
-                <td>FOL / Itinerario laboral</td>
-                <td>Digitalización</td>
-                <td>FOL / Itinerario laboral</td>
-                <td>Inglés Técnico</td>
+            <tr><!-- Sesión 6-->
+                <td>13:20 14:10</td>
+            </tr>
+            <tr><!-- Mediodia -->
+                <td>14:10
+                    14:50</td>
+                <td colspan="5" align="center"><strong>Mediodia</strong></td>
+            </tr>
+            <tr> <!-- Sesión 7 -->
+                <td>14:50 15:40</td>
+                <td rowspan="3">Programación</td>
+                <td rowspan="3"></td>
+                <td rowspan="3">ItrPerEmpleo</td>
+                <td rowspan="3"></td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr><!-- Sesión 8-->
+                <td>15:40 16:30</td>
+            </tr>
+            <tr><!-- Sesión 9-->
+                <td>16:30 17:20</td>
             </tr>
         </tbody>
         <tfoot></tfoot>
