@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horario Lectivo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
     <table border="1">
-        <caption>Horario Semanal de Clases</caption>
+        <caption>1º de DAM</caption>
         <thead>
             <tr>
-                <th>Hora</th>
+                <th></th>
                 <th>Lunes</th>
                 <th>Martes</th>
                 <th>Miércoles</th>
@@ -21,61 +22,60 @@
         </thead>
         <tbody>
             <tr><!-- Sesión 1 -->
-                <td>08:30 09:20</td>
-                <td rowspan="2">Bases de Datos</td>
-                <td>ContDes</td>
-                <td>Ingles</td>
-                <td rowspan="2">Bases de Datos</td>
-                <td rowspan="2">LIMA</td>
+                <td>08:30 <br> 09:20</td>
+                <td rowspan="2" class="bd">Bases de Datos</td>
+                <td class="cont">ContDes</td>
+                <td class="ing">Ingles</td>
+                <td rowspan="2" class="bd">Bases de Datos</td>
+                <td rowspan="2" class="lima">LIMA</td>
             </tr>
             <tr><!-- Sesión 2 -->
-                <td>09:20 10:10</td>
-                <td>LIMA</td>
-                <td>Contornos</td>
+                <td>09:20 <br> 10:10</td>
+                <td class="lima">LIMA</td>
+                <td class="cont">Contornos</td>
             </tr>
             <tr><!-- recreo -->
                 <td> </td>
                 <td colspan="5" align="center"><strong>RECREO</strong></td>
             </tr>
             <tr><!-- Sesión 3 -->
-                <td>10:30 11:20</td>
-                <td>ItrPerEmpleo</td>
-                <td>Ingles</td>
-                <td rowspan="2">Sistemas Informáticos</td>
-                <td>LIMA</td>
-                <td rowspan="2">Programación</td>
+                <td>10:30 <br> 11:20</td>
+                <td class="ipe">ItrPerEmpleo</td>
+                <td class="ing">Ingles</td>
+                <td rowspan="2" class="si">Sistemas Informáticos</td>
+                <td class="lima">LIMA</td>
+                <td rowspan="2" class="prog">Programación</td>
             </tr>
             <tr><!-- Sesión 4 -->
-                <td>11:20 12:10</td>
-                <td>ContDes</td>
-                <td>Bases de datos</td>
-                <td>Sustentabilidad</td>
+                <td>11:20 <br> 12:10</td>
+                <td class="cont">ContDes</td>
+                <td class="bd">Bases de datos</td>
+                <td class="sust">Sustentabilidad</td>
             </tr>
             <tr><!-- recreo -->
                 <td> </td>
                 <td colspan="5" align="center"><strong>RECREO</strong></td>
             </tr>
             <tr><!-- Sesión 5 -->
-                <td>12:30 13:20</td>
-                <td rowspan="2">Sistemas</td>
-                <td rowspan="2">Programación</td>
-                <td rowspan="2">Bases de datos</td>
-                <td rowspan="2">Programación</td>
-                <td rowspan="2">Sistemas informáticos</td>
+                <td>12:30 <br> 13:20</td>
+                <td rowspan="2" class="si">Sistemas</td>
+                <td rowspan="2" class="prog">Programación</td>
+                <td rowspan="2" class="bd">Bases de datos</td>
+                <td rowspan="2" class="prog">Programación</td>
+                <td rowspan="2" class="si">Sistemas informáticos</td>
             </tr>
             <tr><!-- Sesión 6-->
-                <td>13:20 14:10</td>
+                <td>13:20 <br> 14:10</td>
             </tr>
             <tr><!-- Mediodia -->
-                <td>14:10
-                    14:50</td>
+                <td>14:10 <br> 14:50</td>
                 <td colspan="5" align="center"><strong>Mediodia</strong></td>
             </tr>
             <tr> <!-- Sesión 7 -->
                 <td>14:50 15:40</td>
-                <td rowspan="3">Programación</td>
+                <td rowspan="3" class="prog">Programación</td>
                 <td rowspan="3"></td>
-                <td rowspan="3">ItrPerEmpleo</td>
+                <td rowspan="3" class="ipe">ItrPerEmpleo</td>
                 <td rowspan="3"></td>
                 <td rowspan="3"></td>
             </tr>

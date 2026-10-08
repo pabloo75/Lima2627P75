@@ -1,0 +1,32 @@
+table{
+  border: 1px solid blue; 
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid blue;
+}
+
+.bd{
+  background-color: #d2d2ff; 
+}
+.cont{
+  background-color: #ffa264; 
+}
+.ing{ 
+  background-color: #c8a0c8;
+}
+.lima{ 
+  background-color: #bc7878;
+}
+.ipe{
+  background-color: #ffc8c8;
+}
+.si{
+  background-color: #28c8c8;
+}
+.prog{
+  background-color: #00df00;
+}
+.sust{ 
+  background-color: #64b4f0;
+}
