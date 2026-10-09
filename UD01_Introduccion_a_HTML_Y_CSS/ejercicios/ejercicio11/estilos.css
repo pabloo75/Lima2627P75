@@ -1,0 +1,28 @@
+body{
+    background-color: #ddd;
+    color : red;
+    /* esto es para el tipo de letra
+    font-family: "Times New Roman", serif;
+    */
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20PX;
+}
+h2{
+    text-align: right;
+}
+hr {
+    width: 50%;
+    margin: 20px auto;
+}
+h3{
+    font-size: 16px;
+}
+P{
+    font-size: 12px;
+}
+footer{
+    font-style: italic;
+}
