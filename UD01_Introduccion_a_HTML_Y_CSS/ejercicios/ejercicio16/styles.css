@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+}
+h1, h2{
+    color: #7b1e24;
+    border-bottom: 2px solid #7b1e24;
+}
+time {
+    color: #FFF;
+    background-color: #f00;
+}
+abbr{
+    color: red;
+    font-style: italic;
+    text-decoration: underline dotted;
+}
+blockquote{
+    background-color: #DDD;
+    border-left: 5px solid #666;
+    margin: 20px 40px;
+    padding: 10px;
+}
