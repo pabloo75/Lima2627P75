@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rexistro en actividade formativa</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <h1>Rexistro en actividade formativa</h1>
+
+  <form action="" method="POST">
+    <fieldset>
+      <legend>Datos persoais</legend>
+      <ul>
+        <li>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required
+                 pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñüA-ZÁÉÍÓÚÑ \-]{2,29}" />
+        </li>
+        <li>
+          <label for="apelidos">Apelidos:</label>
+          <input type="text" id="apelidos" name="apelidos" required
+                 pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñüA-ZÁÉÍÓÚÑ \-]{2,49}" />
+        </li>
+        <li>
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required />
+        </li>
+        <li>
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" min="16" max="99" required />
+        </li>
+        <li>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" />
+        </li>
+        <li>
+          <label for="cp">Código postal:</label>
+          <input type="text" id="cp" name="cp" pattern="[0-9]{5}" required />
+        </li>
+        <li>
+          <label for="irmans">Número de irmáns:</label>
+          <input type="number" id="irmans" name="irmans" min="0" max="15" />
+        </li>
+        <li>
+          <label for="web">Páxina web persoal:</label>
+          <input type="url" id="web" name="web" />
+        </li>
+      </ul>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+  </form>
+</body>
+</html>
