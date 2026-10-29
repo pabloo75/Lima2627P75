@@ -1,0 +1,22 @@
+
+    /* Obrigatorio e válido */
+    input:required:valid {
+      background-color: lightgreen;
+      border: 2px solid green;
+    }
+    /* Obrigatorio e non válido */
+    input:required:invalid {
+      background-color: lightcoral;
+      border: 2px solid red;
+    }
+    /* Non obrigatorio e válido (incluído o baleiro) */
+    input:optional:valid {
+      background-color: transparent;
+      border: 2px solid green;
+    }
+    /* Non obrigatorio e non válido */
+    input:optional:invalid {
+      background-color: transparent;
+      border: 2px solid red;
+    }
+  
