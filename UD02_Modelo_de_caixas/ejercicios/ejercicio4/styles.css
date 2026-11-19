@@ -1,0 +1,20 @@
+#formulario input {
+    border: 1px solid #333;
+    border-left-width: 3px;
+    border-radius: 5px;
+    padding: 6px;
+    outline: none;
+
+}
+
+#formulario input:optional{
+    border-left-color: #999;
+}
+
+#formulario input:required:valid{
+    border-left-color: palegreen;
+}
+
+#formularaio input:required:invalid{
+    border-left-color: salmon;
+}

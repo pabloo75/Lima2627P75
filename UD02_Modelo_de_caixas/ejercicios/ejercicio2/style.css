@@ -1,0 +1,124 @@
+:root {
+    --violeta-oscuro: rgb(54, 43, 91);
+    --gris: rgb(112, 119, 135);
+    --violeta-claro: rgb(195, 177, 235);
+    --borde: 2px solid rgba(145, 124, 190, 0.45);
+}
+
+body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #7775c9 0%, #bd83c2 48%, #75a9d4 100%);
+    color: var(--violeta-oscuro);
+}
+
+article {
+   
+   width: 640px;
+   background-color: var(--violeta-claro);
+   margin : 3rem auto;
+   padding : 1rem ;
+   border-radius: 1rem;
+   
+   
+
+}
+
+header {
+   
+}
+
+h1 {
+    
+}
+
+.fecha {
+    
+}
+
+.tiempo-actual {
+    
+}
+
+.temperatura {
+    width: 49%;
+    display: inline-block;
+}
+
+.valor {
+   font-size: 7em;
+   font-weight: bold;
+   margin: 0;
+}
+
+.estado {
+    
+}
+
+.imagen-tiempo {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+.imagen-tiempo img {
+    height: 300px;
+    
+}
+
+.detalles {
+
+}
+
+.detalles p {
+    
+}
+
+.detalles strong {
+
+}
+
+.prevision {
+
+}
+
+.prevision h2 {
+
+}
+
+.capsula{
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th {
+    text-align: center;
+
+}
+
+td{
+    text-align: center;
+
+}
+
+td:not(:last-child), th:not(:last-child) {
+    border-right: var(--borde);
+}
+
+.iconos img {
+    height: 3rem;
+}
+
+.maximas {
+
+}
+
+.minimas {
+
+}
