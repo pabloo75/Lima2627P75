@@ -1,11 +1,32 @@
+body{
+    background-color: gray;
+}
+
+#cont{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
 #formulario input {
     border: 1px solid #333;
     border-left-width: 3px;
     border-radius: 5px;
     padding: 6px;
     outline: none;
+    width: 20%;
+    margin-left: 5px ;
+    box-sizing: border-box;
 
 }
+
+#cont h1{
+    color:blue;
+    font-size: 20px;
+}
+
 
 #formulario input:optional{
     border-left-color: #999;
@@ -15,6 +36,29 @@
     border-left-color: palegreen;
 }
 
-#formularaio input:required:invalid{
+#formulario input:required:invalid{
     border-left-color: salmon;
 }
+
+#formulario input:required:focus,
+#formulario input:optional:focus{
+    border-top-color: palegoldenrod;
+    border-right-color: palegoldenrod;
+    border-bottom-color: palegoldenrod;
+}
+/* Cuando haces input:required:valid, va primero el required? o el valid?
+-Da igual, lo mas que sea mas facil para entender
+*/
+#formulario input:required:valid:focus{
+    background: url("check.png") no-repeat right 10px center;
+    background-size: 10px;
+    padding-right: 30px;
+}
+
+#formulario input:invalid:focus{
+    background: url("tnt.png") no-repeat right 6px center;
+    background-size: 10px;
+    padding-right: 30px;
+}
+/*pregunta 1: si selecciono apodo y sin escribir algo se tiene q poner todo amarillo o dejar el gris tambien??
+pregunta 2: si selecciono apodo y es correcto se tiene q poner en verde tambien??
