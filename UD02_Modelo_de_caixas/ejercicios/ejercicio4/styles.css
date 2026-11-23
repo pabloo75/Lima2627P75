@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: lightslategray;
 }
 
 #cont{
@@ -10,21 +10,26 @@ body{
     margin: 20px auto;
 }
 
+
+
 #formulario input {
+    
     border: 1px solid #333;
     border-left-width: 3px;
     border-radius: 5px;
     padding: 6px;
     outline: none;
-    width: 20%;
-    margin-left: 5px ;
+    width: 23%;
+    margin-left: 0;
+    margin-right: 1%;
     box-sizing: border-box;
 
 }
 
 #cont h1{
-    color:blue;
+    color:deepskyblue;
     font-size: 20px;
+    
 }
 
 
@@ -60,5 +65,3 @@ body{
     background-size: 10px;
     padding-right: 30px;
 }
-/*pregunta 1: si selecciono apodo y sin escribir algo se tiene q poner todo amarillo o dejar el gris tambien??
-pregunta 2: si selecciono apodo y es correcto se tiene q poner en verde tambien??

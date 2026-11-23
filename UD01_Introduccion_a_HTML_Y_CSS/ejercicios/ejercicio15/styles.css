@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid black;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+}
+.rojo     { background-color: #ff0000; }
+.naranja  { background-color: #ffc000; }
+.amarillo { background-color: #ffff00; }
+.verde    { background-color: #00b050; }
+.cian     { background-color: #00b0f0; }
+.azul     { background-color: #0070c0; }
+.morado   { background-color: #7030a0; }

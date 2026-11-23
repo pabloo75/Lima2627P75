@@ -1,0 +1,112 @@
+ 
+:root {
+    --marfil: #f7f0df;
+    --papel: #fffaf0;
+    --beixe: #eee0c5;
+    --beixe-escuro: #dfc79d;
+    --ocre: #a77736;
+    --ocre-escuro: #68451f;
+    --tinta: #352819;
+    --tinta-suave: #6e5a42;
+    --borde: #b89a6b;
+    --hover: #f0d49a;
+}
+ 
+body {
+    background-color: var(--marfil);
+    color: var(--tinta);
+}
+ 
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: var(--ocre-escuro);
+    text-shadow: 2px 2px 3px var(--borde);
+}
+ 
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: var(--papel);
+    font-size: 12px;
+}
+ 
+caption {
+    caption-side: bottom;
+    font-style: italic;
+    padding: 6px;
+    color: var(--tinta-suave);
+}
+ 
+/* Cabeceira */
+.cab {
+    background-color: var(--ocre-escuro);
+    color: var(--marfil);
+    border: 1px solid var(--borde);
+    padding: 8px;
+}
+.reinado {
+    background-color: var(--ocre);
+    color: var(--marfil);
+    border: 1px solid var(--borde);
+}
+.subcab {
+    background-color: var(--beixe-escuro);
+    color: var(--tinta);
+    border: 1px solid var(--borde);
+}
+ 
+/* Corpo: cores alternas e hover (o hover vai despois para gañar) */
+tbody tr:nth-child(odd)  { background-color: var(--papel); }
+tbody tr:nth-child(even) { background-color: var(--beixe); }
+tbody tr:hover           { background-color: var(--hover); }
+ 
+.retrato {
+    text-align: center;
+    padding: 6px;
+    border-bottom: 1px dotted var(--borde);
+}
+.retrato img {
+    border-radius: 50%;
+    border: 2px solid var(--ocre);
+}
+.nome {
+    text-align: left;
+    padding: 6px;
+    border-left: 1px solid var(--beixe-escuro);
+    border-bottom: 1px dotted var(--borde);
+}
+.dinastia {
+    color: var(--tinta-suave);
+    padding: 6px;
+    border-left: 1px solid var(--beixe-escuro);
+    border-bottom: 1px dotted var(--borde);
+}
+.ano {
+    text-align: center;
+    padding: 6px;
+    border-left: 1px solid var(--beixe-escuro);
+    border-bottom: 1px dotted var(--borde);
+}
+ 
+/* Pé */
+.resumo {
+    background-color: var(--ocre);
+    color: var(--marfil);
+    border: 1px solid var(--borde);
+}
+.dinas-resumo {
+    background-color: var(--beixe-escuro);
+    text-align: left;
+    padding: 4px;
+    border-bottom: 1px solid var(--borde);
+    border-right: 1px solid var(--borde);
+}
+.dato-resumo {
+    background-color: var(--beixe-escuro);
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde);
+    border-right: 1px solid var(--borde);
+    
+}
