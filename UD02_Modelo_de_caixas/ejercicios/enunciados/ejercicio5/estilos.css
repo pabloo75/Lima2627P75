@@ -56,3 +56,8 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
     background: #e2edf8;
 }
+
+thead{
+    position:sticky;
+    top:0px;
+}
