@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <main class="caja">
+        <h1>Crear cuenta</h1>
+
+        <form id="formulario" action="" method="POST">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required
+                               pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñü ]{2,29}">
+                    </li>
+                    <li>
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </li>
+                    <li>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="16" max="99" required>
+                    </li>
+                    <li>
+                        <label for="telefono">Teléfono (opcional):</label>
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}">
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+</body>
+</html>

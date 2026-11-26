@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293747;
+    background: #edf1f5;
+}
+
+body { padding: 40px; }
+
+.caja {
+    max-width: 480px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px #00000018;
+}
+
+fieldset { border: 1px solid #d0d7de; border-radius: 8px; }
+ul { margin: 0; padding: 0; list-style: none; }
+li { margin-bottom: 14px; }
+label { display: block; margin-bottom: 5px; font-size: 14px; }
+
+/* TODO: aspecto base de los campos: borde fino con el lado izquierdo más
+   grueso, esquinas redondeadas, relleno, ancho completo y sin el contorno
+   por defecto al enfocar */
+#formulario input {
+    border: 1px solid grey;
+    border-left: 3px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    width: 100%;
+    outline: none;
+}
+
+/* TODO: borde izquierdo según el estado del campo:*/
+
+  /* - opcional: gris*/
+#formulario input:optional{
+    border-left-color: grey;
+}
+   /*- obligatorio y válido: verde*/
+#formulario input:required:valid{
+    border-left-color: green;
+}   
+  /* - obligatorio e inválido: rojo */
+#formulario input:required:invalid{
+    border-left-color: red;
+}
+
+/* TODO: al enfocar un campo (:focus), los otros tres bordes se ponen amarillos.
+   Pista: pon estas reglas DESPUÉS de las anteriores. */
+#formulario input:focus{
+    border-top-color: rgb(255, 187, 0);
+    border-right-color: rgb(255, 187, 0);;
+    border-bottom-color: rgb(255, 187, 0);;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    background: #2864a8;
+    border-radius: 8px;
+    cursor: pointer;
+}

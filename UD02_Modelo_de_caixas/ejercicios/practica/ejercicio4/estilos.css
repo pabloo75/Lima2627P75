@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293747;
+    background: #edf1f5;
+}
+
+html { scroll-behavior: smooth; }
+
+header {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    background: #2864a8;
+}
+
+/* TODO: que el menú se quede pegado arriba al hacer scroll.
+   Pista: sticky necesita un umbral (top). Mira si se tapa con las secciones. */
+.menu {
+    padding: 14px 20px;
+    background: #243247;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+
+section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+footer { padding: 30px; text-align: center; color: white; background: #243247; }
+
+/* TODO: los dos botones siempre visibles abajo a la derecha de la ventana,
+   uno encima del otro. Colócalos con bottom, no con top en porcentaje. */
+.arriba, .abajo {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background: #2864a8;
+    border-radius: 50%;
+}

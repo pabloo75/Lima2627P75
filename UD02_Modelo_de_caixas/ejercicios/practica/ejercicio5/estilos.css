@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf1f5;
+}
+
+#contenedor {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#cabecera, #pie {
+    padding: 25px;
+    text-align: center;
+    background: #cecbf6;
+    border-radius: 8px;
+}
+
+/* TODO: menú a la izquierda (aprox. un cuarto) y contenido a la derecha
+   (aprox. tres cuartos), con un margen entre ellos. Si 25% + 75% + márgenes
+   pasa de 100%, la columna salta abajo: usa calc(). */
+#menu {
+    min-height: 250px;
+    padding: 20px;
+    background: #9fe1cb;
+    border-radius: 8px;
+}
+
+#contenido {
+    min-height: 250px;
+    background: #e6f1fb;
+    border-radius: 8px;
+}
+
+/* TODO: dentro del contenido, dos columnas: principal (aprox. 80%) y
+   lateral (aprox. 20%). Vigila que el contenedor no se quede con altura 0. */
+#principal {
+    min-height: 250px;
+    padding: 20px;
+    background: #fac775;
+}
+
+#secundario {
+    min-height: 250px;
+    padding: 20px;
+    background: #f5c4b3;
+}
+
+/* TODO: el pie debe quedar siempre debajo de todas las columnas */
+#pie {
+    margin-top: 10px;
+}

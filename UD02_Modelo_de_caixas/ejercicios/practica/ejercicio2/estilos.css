@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+
+/* TODO: el body necesita una altura para poder calcular el centrado
+   (pista: 100vh y sin margen por defecto) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf1f5;
+
+
+    height: 100vh;
+    margin: 0;
+}
+
+/* TODO: centrar la tarjeta en horizontal y en vertical SIN flex.
+   Pista: margin auto en los lados + margin-top con calc() usando
+   100vh y la altura de la tarjeta. */
+.tarjeta {
+    width: 320px;
+    height: 220px;
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px #00000018;
+
+    margin: 0 auto;
+    margin-top: calc(calc(100vh - 220px)/2);
+}
+    
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 28px;
+    color: white;
+    background: #2864a8;
+    border-radius: 8px;
+    text-decoration: none;
+}

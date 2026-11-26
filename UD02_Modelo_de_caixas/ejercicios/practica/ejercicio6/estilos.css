@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293747;
+    background: #edf1f5;
+}
+
+body { padding: 40px; }
+
+/* TODO: tabla centrada, que ocupe un ancho razonable, con bordes finos
+   de una sola línea (no dobles) */
+table {
+    background: white;
+}
+
+/* TODO: bordes finos en th y td, texto centrado, algo de relleno */
+th, td {
+}
+
+/* TODO: cabecera de la tabla con fondo oscuro y letra blanca */
+thead th {
+}
+
+/* TODO: filas alternas con otro fondo (pista: nth-child).
+   Ojo: las celdas con clase de color tienen que seguir viéndose. */
+tbody tr {
+}
+
+/* TODO: un color de fondo por asignatura */
+.bd    { }
+.prog  { }
+.lmsxi { }
+.lima  { }
+.recreo { }

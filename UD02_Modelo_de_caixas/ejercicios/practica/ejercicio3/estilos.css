@@ -1,0 +1,78 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293747;
+    background: #edf1f5;
+}
+
+body { padding: 40px; }
+
+.producto {
+    width: 320px;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px #00000018;
+}
+
+/* TODO: contexto de posicionamiento para las tres piezas */
+.foto {
+    position:relative;
+}
+
+.foto img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* TODO: esquina superior izquierda */
+.nuevo {
+    padding: 4px 12px;
+    color: white;
+    font-size: 12px;
+    background: #e24b4a;
+    border-radius: 5px;
+
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* TODO: esquina superior derecha, botón blanco y redondo */
+.favorito {
+    width: 34px;
+    height: 34px;
+    border: none;
+    color: #a32d2d;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    position:absolute;
+    top: 10px;
+    right: 10px; 
+
+
+
+}
+
+/* TODO: esquina inferior derecha */
+.precio {
+    padding: 4px 14px;
+    font-weight: bold;
+    background: white;
+    border-radius: 15px;
+
+    position:absolute;
+    right: 10px;
+    top: 180px;
+}
+
+.info { padding: 15px 20px; }
+.info h1 { margin: 0 0 5px; font-size: 20px; }
+.info p  { margin: 0; color: #718096; }
